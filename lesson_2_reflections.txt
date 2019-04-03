@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+If you have a new project of some sort you would want to initialize a new 
+repository as they are the containters for the files from the project. when
+you do this, a new .git directory is created to track the files. 
+

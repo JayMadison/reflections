@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+The diff command makes it much easier to see the changes since it discards
+lines that remained the same between version. I've used quite often in my
+professional work on larger projects and it is very helpful when lerger files
+or multiple files are involved.
+
+How did viewing a diff between two versions of a file help you see the bug that
+ was introduced?
+
+You can see the changes in a file or files so it makes it faster to see what
+might have changed and thus you can concentrate on the likely sources of an
+issue.
+
+What do you think are the pros and cons of manually choosing when to create 
+a commit, like you do in Git, vs having versions automatically saved, like 
+Google Docs does?
+
+The pros are mostly that you can logically size what is in the commite and
+provide a commit message that is understandable (with an autocommit it's 
+likely the commit would contain unrelated changes). The downside to manual
+commits is generally that people may forget to commit and you would wind up
+with a huge commit of weeks worth of work. 
+
+Why do you think some version control systems, like Git, allow saving multiple 
+files in one commit, while others, like Google Docs, treat each file separately?
+
+It depends on the application. Something like google docs are generally independent
+from each other, so there's not a need to have multiople fles. Programing languages
+tend to use many files so being able to commit multiple files is very impoant for 
+those applications. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log will show you a history of the project, and what was added when and wouldb
+be a good starting point for understanding changes made over time. Once you find a 
+change of interest (or changes) you can use git diff to see the differences
+
+How might using version control make you more confident to make changes that could 
+break something?
+
+Since you could easily revert to a previous version, there is a lot less risk of
+breaking things permantly and you could easily recover. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I use it at work pretty frequently on larger projects, but from a Udacity standpoint
+the capstone is probably where it will come in handy the most. 
